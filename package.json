@@ -1,0 +1,19 @@
+{
+  "name": "my-4-fu",
+  "version": "1.0.0",
+  "description": "Build for FU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangshan307/my4fu.git"
+  },
+  "author": "Huangshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangshan307/my4fu/issues"
+  },
+  "homepage": "https://github.com/huangshan307/my4fu#readme"
+}
