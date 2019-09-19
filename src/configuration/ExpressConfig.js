@@ -2,6 +2,8 @@ import express from 'express';
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
 
+import studentRoute from '../routers/student.router';
+
 export default () => {
     const app = express();
 
@@ -11,6 +13,8 @@ export default () => {
     // Parsing the body 
     app.use(bodyParser.urlencoded({ extended: false }));
     app.use(bodyParser.json());
+
+    studentRoute(app);
 
     // Handling errors
     app.use((req, res, next) => {
